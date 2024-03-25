@@ -24,7 +24,7 @@ func binarySearch(array []int32, searchValue int32) int32 {
 	var lastElement = len(array) - 1
 	var firstElement = 0
 	// compare it with searchValue
-	for i := 0; i < len(array)/2; i++ {
+	for firstElement < lastElement {
 		var middleElement = math.Round((float64(firstElement) + float64(lastElement)/2))
 
 		if searchValue == array[int32(middleElement)] {
