@@ -10,12 +10,12 @@ var (
 
 func TestElementFound(t *testing.T) {
 	if binarySearch(arr, elementFound) != 1 {
-		t.Error("Test Failed: Seharusnya 1")
+		t.Error("Test Failed: Should be 1")
 	}
 }
 
 func TestElementNotFound(t *testing.T) {
 	if binarySearch(arr, elementNotFound) != -1 {
-		t.Error("Test Failed: Seharusnya -1")
+		t.Error("Test Failed: Should be -1")
 	}
 }

@@ -10,12 +10,12 @@ var (
 
 func TestElementFound(t *testing.T) {
 	if linearSearch(arr, searchFound) != 2 {
-		t.Error("Test Failed: Seharusnya 2")
+		t.Error("Test Failed: Should be 2")
 	}
 }
 
 func TestElementNotFound(t *testing.T) {
 	if linearSearch(arr, searchNotFound) != -1 {
-		t.Error("Test Failed: Seharusnya -1")
+		t.Error("Test Failed: Should be -1")
 	}
 }
